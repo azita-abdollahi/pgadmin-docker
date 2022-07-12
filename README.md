@@ -101,6 +101,8 @@ docker compose logs -f ServiceName
 
 Note: If you don't provide `ServiceName` argument, it will return all services logs
 
+
+
 Finally, open `https://yourserverip:PGADMIN_PORT` in your browser and user credentials those provided in `pgadmin_env` file and if you want to register your postgres server in pgAdmin, use credetials provided in `postgres_env` file.
 
 Enjoy ;)
